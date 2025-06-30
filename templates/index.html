@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recherche Météo</title>
+</head>
+<body>
+    <h1>Recherche Météo par Ville</h1>
+    <form action="/meteo_resume_by_city" method="post">
+        <label for="city">Entrez le nom de la ville :</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+        <button type="submit">Obtenir le résumé météo</button>
+    </form>
+
+    {% if resume %}
+    <h2>Résumé météo pour {{ city }} :</h2>
+    <p>{{ resume }}</p>
+    {% endif %}
+
+    {% if error %}
+    <p style="color:red;">Erreur : {{ error }}</p>
+    {% endif %}
+</body>
+</html>
