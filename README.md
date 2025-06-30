@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# METEO
-=======
+
 # Mon Projet FastAPI Météo & Résumé
 
 ## Description
