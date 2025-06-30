@@ -50,4 +50,5 @@ cd <NOM_DU_REPO>
 
 
 
->>>>>>> f78d2de (First commit - ajout du projet FastAPI météo)
+
+
